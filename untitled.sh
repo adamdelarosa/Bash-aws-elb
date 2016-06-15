@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #constants
-ELB=danny-test-lb
+ELB=your-elb-name
 
-ELB_NODE_ONE=i-475368c0
-ELB_NODE_TWO=i-475368c1
+ELB_NODE_ONE=i-000000c0
+ELB_NODE_TWO=i-000000c1
 
 #remove from elb and wait for instance to be actually removed
 remove_from_lb_and_wait() {
